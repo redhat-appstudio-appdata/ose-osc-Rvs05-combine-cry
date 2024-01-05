@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: sandboxed-containers-operator-5xzg
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-dbox-containers-tenant/ose-osc/sandboxed-containers-operator-5xzg@sha256:3228a66f04282335136310ca0f66dd501f4cb86cec02be659848116fb1764662
         imagePullPolicy: Always
         name: container-image
         ports:
