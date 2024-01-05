@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: sandboxed-containers-operator-5xzg
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-dbox-containers-tenant/ose-osc/sandboxed-containers-operator-5xzg@sha256:3228a66f04282335136310ca0f66dd501f4cb86cec02be659848116fb1764662
+        name: container-image
+        resources: {}
+status: {}
